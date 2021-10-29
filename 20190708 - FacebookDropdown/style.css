@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ablock .list-group {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.ablock .list-group:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 6px #ffffff00 solid;
+    border-bottom-color: white;
+    right: 13px;
+    top: -13px;
+}
+
+.ablock .iconstatus {
+    font-size: 23px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.ablock {
+    position: relative;
+    float: left;
+}
+.statusblue{
+    height: 43px;
+    background-color: #2b5998;
+    padding-left: 42em;
+}
+.iconstatus-active{
+    color: white;
+}
+.showlist{
+    opacity: 1 !important;
+    visibility: visible !important;
+}

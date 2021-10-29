@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.switch-button .switch-left,
+.switch-button .switch-right {
+    font-size: 6em;
+    margin: 0 16px;
+}
+
+.slide {
+    position: relative;
+}
+
+.slide img.aslide {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
+}
+.hideNext{
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+.showNext{
+    opacity: 1 !important;
+    visibility: visible !important;
+}

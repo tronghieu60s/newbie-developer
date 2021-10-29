@@ -1,0 +1,23 @@
+*{}
+
+.block-number {
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.show-block-number{
+    opacity: 0;
+}
+
+.all-block-number {
+    width: 264px;
+    height: 273px;
+    background: black;
+    border: 12px solid black;
+    margin: auto;
+}

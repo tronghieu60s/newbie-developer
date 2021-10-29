@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu a {
+    color: white;
+    padding: 12px 25px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    background: #007c5e;
+}
+
+.menu {
+    height: 40px;
+    line-height: 40px;
+    background: #22b573;
+}
+.menuscroll{
+    position: fixed;
+    background: black;
+    z-index: 5;
+    width: 100%;
+    top: 0;
+}
+.banner{
+    height: 120px;
+    background: url(1.png) no-repeat;
+    background-size: cover;
+}
+.vtfixed{
+    position: fixed;
+    top: 38px;
+    right: 188px;
+}

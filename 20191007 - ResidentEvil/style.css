@@ -1,0 +1,273 @@
+.re-author a {
+    color: hsla(265, 101%, 49%, 1);
+}
+
+.re-author {
+    text-align: center;
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+
+.pa-title p {
+    float: left;
+    width: 60%;
+}
+
+.pa2-title p {
+    float: right;
+    width: 60%;
+    color: hsla(0, 99%, 49%, 1);
+}
+
+.pa2-timeline {position: relative;height: 334px;}
+
+.pa2-img {
+    width: 45%;
+    position: absolute;
+    top: 8%;
+}
+.pa2-content {
+    text-align: justify;
+    text-align-last: left;
+    margin-left: 9%;
+    float: right;
+}
+.pa2-title {text-align: right;font-family: 'Kaushan Script', cursive;}
+
+.pa2-title:after {
+    content: '';
+    display: block;
+    width: 31%;
+    height: 3px;
+    background: #eeeeee;
+    float: left;
+    margin: 5% 0 0 9%;
+}
+
+.pa2-title:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #eeeeee;
+    position: absolute;
+    right: 50%;
+    top: 3%;
+    transform: translateX(50%) rotate(45deg);
+}
+
+.pa-img {
+    width: 45%;
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+
+.pa-content{
+    width: 92%;
+    text-align: justify;
+    clear: left;
+}
+
+.pa-title {
+    font-family: 'Kaushan Script', cursive;
+    color: hsla(0, 99%, 49%, 1);
+}
+
+.pa-title:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #eeeeee;
+    position: absolute;
+    right: 50%;
+    top: 3%;
+    transform: translateX(50%) rotate(45deg);
+}
+
+.pa-title:after {
+    content: '';
+    display: block;
+    width: 31%;
+    height: 3px;
+    background: #eeeeee;
+    float: right;
+    margin: 5% 9% 0 0;
+}
+
+.pa-text,
+.pa2-text{width: 50%;}
+
+.pa2-text {
+    float: right;
+}
+
+.pa-timeline {
+    position: relative;
+}
+
+.re-time {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin: 72px 0 28px 0;
+    position: relative;
+}
+
+.re-time#_2012-17:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 15em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_2012:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 13em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_2009-12:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 13em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_2009:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 13em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_2005:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 13.5em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_2004:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 13em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_1999:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 15em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-time#_1998:before {
+    content: '';
+    display: block;
+    width: 7px;
+    height: 43em;
+    background: #eeeeee;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-timeline {
+    font-family: 'Kaushan Script', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.re-timeline:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid gray;
+    width: 18%;
+    margin-top: 3px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.re-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 0.5em;
+    text-transform: uppercase;
+    color: hsla(0, 168%, 38%, 1);
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/bg.png);
+    color: #eeeeee;
+}
+
+.timeline {
+    position: relative;
+    opacity: 1;
+}
+.notification{
+    opacity: 0;
+}
+
+/* Css screen phone */
+@media (max-width:576px) {
+    body{
+        background-color: white;
+        color: black;
+    }
+    .timeline{
+        opacity: 0;
+    }
+    .notification{
+        opacity: 1;
+        font-size: 2em;
+        color: white;
+    }
+    
+}
